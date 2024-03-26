@@ -5,7 +5,7 @@ const HeroSection = () => {
     <section id="hero" className="mt-12">
       <CenteredContent variant="flex flex-row justify-between items-center">
         <div className="w-1/2">
-          <Badge bg="color-gray">
+          <Badge variant="bg-color-gray">
             <svg
               width="24"
               height="24"

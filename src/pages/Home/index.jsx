@@ -1,7 +1,8 @@
+import FeaturesSection from "./FeaturesSection";
 import HeroSection from "./HeroSection";
 import Navbar from "./Navbar";
 import PartnersSection from "./PartnersSection";
-import FeaturesSection from "./FeaturesSection";
+import ShowcaseSection from "./ShowcaseSection";
 
 const HomePage = () => {
   return (
@@ -10,6 +11,7 @@ const HomePage = () => {
       <HeroSection />
       <PartnersSection />
       <FeaturesSection />
+      <ShowcaseSection />
     </main>
   );
 };

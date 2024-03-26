@@ -23,6 +23,9 @@ const Button = (props) => {
     case "secondarySmall":
       className += " bg-color-primary hover:bg-color-blue " + smallClassName;
       break;
+    case "primarySmall":
+      className += " bg-color-blue hover:bg-color-primary " + smallClassName;
+      break;
     default:
       break;
   }
