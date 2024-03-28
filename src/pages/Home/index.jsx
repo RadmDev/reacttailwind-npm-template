@@ -2,6 +2,7 @@ import FeaturesSection from "./FeaturesSection";
 import HeroSection from "./HeroSection";
 import Navbar from "./Navbar";
 import PartnersSection from "./PartnersSection";
+import PricingSection from "./PricingSection";
 import ShowcaseSection from "./ShowcaseSection";
 
 const HomePage = () => {
@@ -12,6 +13,7 @@ const HomePage = () => {
       <PartnersSection />
       <FeaturesSection />
       <ShowcaseSection />
+      <PricingSection />
     </main>
   );
 };

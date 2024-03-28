@@ -1,4 +1,10 @@
-import { Badge, Button, CenteredContent, Heading2 } from "../../components";
+import {
+  Badge,
+  BenefitList,
+  Button,
+  CenteredContent,
+  Heading2,
+} from "../../components";
 
 const ShowcaseSection = () => {
   return (
@@ -41,7 +47,7 @@ const ShowcaseSection = () => {
         </div>
         <div className="flex flex-col gap-y-10">
           <Badge variant="bg-color-orange">
-            <span className="text-base font-bold text-white">
+            <span className="text-sm font-bold text-white">
               Built For Winners
             </span>
           </Badge>
@@ -53,15 +59,21 @@ const ShowcaseSection = () => {
             </p>
           </div>
           <div className="flex flex-col gap-y-5">
-            <BenefitList>Auto running when reaches certain number</BenefitList>
-            <BenefitList>Calling backup when you overwhelmed</BenefitList>
-            <BenefitList>
+            <BenefitList iconWidth={30} iconHeight={30} iconColor="orange">
+              Auto running when reaches certain number
+            </BenefitList>
+            <BenefitList iconWidth={30} iconHeight={30} iconColor="orange">
+              Calling backup when you overwhelmed
+            </BenefitList>
+            <BenefitList iconWidth={30} iconHeight={30} iconColor="orange">
               Sending invoices to client completed projects
             </BenefitList>
-            <BenefitList>
+            <BenefitList iconWidth={30} iconHeight={30} iconColor="orange">
               Turn off tracker when the client not agree
             </BenefitList>
-            <BenefitList>More great features coming soon</BenefitList>
+            <BenefitList iconWidth={30} iconHeight={30} iconColor="orange">
+              More great features coming soon
+            </BenefitList>
           </div>
           <div className="flex flex-row items-center gap-x-5">
             <Button variant="primarySmall">Get Free Trial</Button>
@@ -94,29 +106,6 @@ const VideoBox = (props) => {
 const PhotoBox = (props) => {
   const { children, variant } = props;
   return <div className={`rounded-full  ${variant}`}>{children}</div>;
-};
-
-const BenefitList = ({ children }) => {
-  return (
-    <div className="flex flex-row items-center gap-x-3">
-      <svg
-        width="30"
-        height="31"
-        viewBox="0 0 30 31"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <circle cx="15" cy="15.5" r="15" fill="#FF9736" />
-        <path
-          d="M7.5 16L10.8281 19.2542C12.0705 20.4689 14.0817 20.3775 15.2087 19.0551L22.5 10.5"
-          stroke="white"
-          strokeWidth="3"
-          strokeLinecap="round"
-        />
-      </svg>
-      <span className="text-lg font-semibold">{children}</span>
-    </div>
-  );
 };
 
 export default ShowcaseSection;

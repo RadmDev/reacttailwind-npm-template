@@ -5,7 +5,7 @@ const FeaturesSection = () => {
     <section id="features" className="w-full bg-color-grey-primary">
       <CenteredContent variant="flex flex-col gap-y-8 py-28">
         <Badge variant="bg-color-blue">
-          <span className="text-base font-bold text-white">Top Features</span>
+          <span className="text-sm font-bold text-white">Top Features</span>
         </Badge>
         <Heading2>
           Built-in Robust Features <br />

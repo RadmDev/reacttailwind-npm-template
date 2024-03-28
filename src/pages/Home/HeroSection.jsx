@@ -55,7 +55,7 @@ const HeroSection = () => {
                 strokeLinejoin="round"
               />
             </svg>
-            <p className="text-base font-bold">
+            <p className="text-sm font-bold">
               <span className="text-color-blue">12,000 </span>top freelancers
               signed up last week
             </p>
