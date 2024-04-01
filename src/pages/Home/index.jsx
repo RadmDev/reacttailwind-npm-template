@@ -1,4 +1,5 @@
 import FeaturesSection from "./FeaturesSection";
+import Footer from "./Footer";
 import HeroSection from "./HeroSection";
 import Navbar from "./Navbar";
 import PartnersSection from "./PartnersSection";
@@ -16,6 +17,7 @@ const HomePage = () => {
       <ShowcaseSection />
       <PricingSection />
       <TestimonialSection />
+      <Footer />
     </main>
   );
 };
